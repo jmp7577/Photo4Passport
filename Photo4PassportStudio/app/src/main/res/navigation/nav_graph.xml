@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.photo4passport.ui.home.HomeFragment"
+        android:label="Home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_editorFragment"
+            app:destination="@id/editorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editorFragment"
+        android:name="com.example.photo4passport.ui.editor.EditorFragment"
+        android:label="Editor">
+        <action
+            android:id="@+id/action_editorFragment_to_exportFragment"
+            app:destination="@id/exportFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/exportFragment"
+        android:name="com.example.photo4passport.ui.export.ExportFragment"
+        android:label="Export" />
+</navigation>

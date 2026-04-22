@@ -1,0 +1,10 @@
+<resources>
+    <color name="blue_500">#2563EB</color>
+    <color name="blue_700">#1D4ED8</color>
+    <color name="surface_light">#F8FAFC</color>
+    <color name="success">#15803D</color>
+    <color name="warning">#B45309</color>
+    <color name="error">#B91C1C</color>
+    <color name="overlay_red">#EF4444</color>
+    <color name="overlay_blue">#3B82F6</color>
+</resources>

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+##############################################################################
+##
+##  Gradle start up script for POSIX generated placeholder.
+##  If the wrapper JAR is missing, regenerate it with `gradle wrapper`.
+##
+##############################################################################
+
+APP_HOME=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
+JAVA_EXE=java
+exec "$JAVA_EXE" -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
